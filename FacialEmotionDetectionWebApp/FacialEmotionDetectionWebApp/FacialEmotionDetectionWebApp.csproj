@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ML.OnnxConverter" Version="0.20.1" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.14.0" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime.Managed" Version="1.14.0" />
+    <PackageReference Include="Microsoft.ML.OnnxTransformer" Version="2.0.1" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
   </ItemGroup>
 
